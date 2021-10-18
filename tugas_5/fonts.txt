@@ -1,0 +1,3 @@
+body                    : HELVETICANEUELTPRO-ROMAN.OTF
+title, logo ("Merkava") : DINPRO-BLACK.OTF
+blockquote (")          : necroman.ttf
