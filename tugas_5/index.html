@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mekarva</title>
+    <style>
+        @font-face {
+            font-family: helvetican;
+            src: url(../tugas_5/fonts/HELVETICANEUELTPRO-ROMAN.OTF);
+        }
+        @font-face {
+            font-family: dinpro;
+            src: url(../tugas_5/fonts/DINPRO-BLACK.OTF);
+        }
+        @font-face {
+            font-family: necroman;
+            src: url(../tugas_5/fonts/necroman.ttf);
+        }
+        body{
+            background-image: url(../tugas_5/imgs/noisy_grid.png);
+            background-repeat: repeat;
+            background-size: cover;
+            font-family: helvetican,'Times New Roman', Times, serif;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            margin: 10px;   
+        }
+        .navbar{
+            margin: 0px 300px 0px 325px;
+            padding: 20px;
+            background-color: rgba(155, 148, 148, 0.521);
+            color: black;
+            width: 900px;
+            
+        }
+
+        .inline{
+            display: inline-block;
+        }
+
+        #web_name{
+            margin-right: 100px;
+            text-align: left;
+        }
+
+        .logo{
+            font-family: dinpro ,'Courier New', Courier, monospace;
+        }
+
+        #function_nav{
+            margin-left: 100px;
+            float: right;
+        }
+        .main_content{
+            text-align: center;
+        }
+        .title{
+            color: black;
+            width: 1000px;
+            margin: 0px 300px;
+        }
+
+        .boxed{
+            display: inline-block;
+            max-width: 300px;
+            margin: 30px;
+            background-color: rgba(0, 0, 0, 0.623);
+            color: white;
+            padding: 20px;
+        }
+
+
+        .quote_info{
+            background: rgb(0,0,0);
+            background: linear-gradient(90deg, rgba(0, 0, 0, 0.11) 29%, rgba(73,70,70,0.9332866935836834) 42%, rgba(73,70,70,0.9528945367209384) 100%);
+            color: white;
+            width: 600px;
+            float: left;
+        }
+
+        .quote_section{
+            margin-left: 300px;
+            width: 1200px;
+            align-items: center;
+        }
+
+        .start-button{
+            background-color: red;
+            border: 2px solid white;
+            color: white;
+            border-radius: 10%;
+            text-align: right;
+            float: right;
+            margin: 5px 200px 0px 10px;
+            padding: 5px;
+        }
+        #menu_main_title{
+            background-image: url(../tugas_5/imgs/background.png);
+            background-repeat: no-repeat;
+            background-size: 100% 600px;
+            margin: -10px;
+            height: 600px;
+        }
+
+        blockquote{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        blockquote footer{
+            text-align: right;
+        }
+        .detail_content{
+            margin-top: 50px;
+        }
+
+        .detail_content a{
+            color: rgb(12, 128, 206);
+        }
+
+        .detail_content a:hover{
+            text-decoration: underline;
+        }
+
+        #detail_info{
+            margin: 50px 300px 50px 300px;
+        }
+
+        #detail_info footer{
+            border-top: 1px solid black;
+        }
+
+        .footer_part{
+            display: inline-block;
+            margin: 10px 20px 10px 20px;
+            padding: 10px;
+        }
+
+        .part_content a{
+            color: rgb(12, 128, 206);
+        }
+
+        .company_logo{
+            display: inline-block;
+            margin: 10px 20px 10px 20px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="menu_main_title">
+        <div class="navbar">
+            <div id="web_name" class="inline">
+                <a href="../tugas_5/index.html">
+                    <b class="logo">
+                        Mekarva
+                    </b>
+                </a>
+            </div>
+            <div id="function_nav" class="inline">
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#">Login</a>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="title">
+                <div class="main_title">
+                    <h1>Your World. Destoryed.</h1>
+                </div>
+                <div class="sub_title">
+                    <h3>and now you only have a single airship</h3>
+                </div>
+            </div>
+            <div class="boxed-content">
+                <div class="boxed">
+                    <h3>An Adventure</h3>
+                    <p>
+                        One day, you woke up and everything just... disappearas. In one night. The great city you live in? Ruins. The big monument your people build to celebrate? Didn't make it. Your family and friends? No where to be found. So what would you do? Sit down and cries? No ma'am, you set out to a journey. An adventure. To find the answer.
+                    </p>
+                </div>
+                <div class="boxed">
+                    <h3>A Rebuild</h3>
+                    <p>
+                        Saving the world ain't no easy task. But if you don't do it, who will? Now of course killin' monster and running around rescuing people is good, but what good is there when those people you rescued have no place to go home? As the saying goes, there is no place like home. When you lost your place to go back to, you lost your hope.
+                    </p>
+                </div>
+                <div class="boxed">
+                    <h3>A Story</h3>
+                    <p>
+                        Whose story am I tellin, you ask? Do I look like I can run around chasin monster and fighting? This old man can't run for his life, kid. This is not my story. This is YOUR story. You get to do the cool things, and I get to tell your story to the world. For what is a hero that no one knows?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="quote_section">
+            <div class="quote_info inline">
+                <blockquote>
+                    I wandered everywhere, through cities and countries wide.
+                    <br/>
+                    And everywhere I went, the world was on my side.
+                    <footer>———————— <cite>Roman Payne, Rooftop Soliloquy</cite></footer>
+                </blockquote>
+            </div>
+            <div class="start-button inline">
+                <h3>Start your Adventure</h3>
+            </div>
+        </div>
+    </div>
+    <div id="detail_info">
+        <div class="detail_content">
+            <h2>What just happened?</h2>
+            <p>
+                Nobody knows. As far as I can tell, something happened last night. Something big. Our whole world was turned upside down. Town destroyed. Some weird, huge monsters comes out of nowhere. Some people survived, some people died, and others just disappears. No one knows why. Maybe you can help us find the answer.
+            </p>
+        </div>
+
+        <div class="detail_content">
+            <h2>Monsters?</h2>
+            <p>
+                Most of our towns were destroyed by monsters. They appears out of thin air, and just started a mayhem. Many brave warriors have died fighting them. We don't know anything about them other than that they're huge, bleeds orange fluid, and comes in different shape and weapons.
+
+                Lucky for us, as a species who likes to kill each other, we have developed some weapons that can fight them. We call our weapon "Gears", a huge, mechanical robots we build to slay Gods. Maybe those monsters are Gods that we pissed by building these thing.
+            </p>
+        </div>
+
+        <div class="detail_content">
+            <h2>Where can I get one of these "Gears"?</h2>
+            <p>
+                I don't know, kid. Every place imaginable to get them have been destroyed. Maybe you can buy it from other survivor. As they said, money can buy ANYTHING. Maybe you can loot it from some of our fallen warrior. Or maybe you can just build one yourself.
+            </p>
+        </div>
+
+        <div class="detail_content">
+            <h2>What should I do next?</h2>
+            <p>
+                What are you waiting for? Go kick ass and save the world!<a href> Now!</a>            
+            </p>
+        </div>
+        <footer>
+            <div class="footer_part">
+                <h3>History</h3>
+                <div class="part_content">
+                    <a href="#">The World</a>
+                    <br>
+                    <a href="#">Dimentional Vortex</a>
+                    <br>
+                    <a href="#">Gears</a>
+                    <br>
+                    <a href="#">Solaris</a>
+                    <br>
+                </div>
+            </div>
+            <div class="footer_part">
+                <h3>The Database</h3>
+                <div class="part_content">
+                    <a href="#">Town</a>
+                    <br>
+                    <a href="#">Continent</a>
+                    <br>
+                    <a href="#">People</a>
+                    <br>
+                    <a href="#">Science & Tech</a>
+                    <br>
+                </div>
+            </div>
+            <div class="footer_part">
+                <h3>Bestiary</h3>
+                <div class="part_content">
+                    <a href="#">Earthling</a>
+                    <br>
+                    <a href="#">Leviathans</a>
+                    <br>
+                    <a href="#">Angels</a>
+                    <br>
+                    <a href="#">Demon</a>
+                    <br>
+                </div>
+            </div>
+            <div class="company_logo">
+                <h3 class="logo">
+                    <b>Merkarva</b><br>
+                    WANDERING IN AN EMPTY WORLD
+                </h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
